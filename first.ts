@@ -1,5 +1,4 @@
 // Assignment 5
-
 // Write a ts program to find maximum between two numbers.
 
 // var num1: number = 6
