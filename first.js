@@ -202,7 +202,6 @@ else if (letter == "a" || letter == "e" || letter == "i" || letter == "o" || let
 else {
     console.log("The alphabet is consnant");
 }
-// 10. Write a ts program to input any alphabet and check whether it is vowel or consonant.
 // Write a ts program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
 // Percentage >= 90% : Grade A
 // Percentage >= 80% : Grade B
@@ -210,11 +209,22 @@ else {
 // Percentage >= 60% : Grade D
 // Percentage >= 40% : Grade E
 // Percentage < 40% : Grade F
-alert("Calculate percentage and grade");
-var total_num = prompt("Enter Total Marks");
-var obt_num = prompt("Enter Obtained Marks");
-var total_marks = Number(total_num);
-var obt_marks = Number(obt_num);
+var total = prompt("Enter total marks");
+alert("Enter subjects marks to calculate percentage");
+var phy = prompt("Enter Physics Marks");
+var chem = prompt("Enter Chemistry Marks");
+var eng = prompt("Enter English Marks");
+var math = prompt("Enter Mathematics Marks");
+var urdu = prompt("Enter Urdu Marks");
+var is = prompt("Enter Islamiyat Marks");
+var total_marks = Number(total);
+var Physics = Number(phy);
+var Chemistry = Number(chem);
+var English = Number(eng);
+var Mathematics = Number(math);
+var Urdu = Number(urdu);
+var Islamiyat = Number(is);
+var obt_marks = Physics + Chemistry + English + Mathematics + Urdu + Islamiyat;
 var percentage = obt_marks / total_marks * 100;
 console.log("The percentage is " + percentage + " %");
 console.log("and");
@@ -232,6 +242,7 @@ else if (percentage >= 60) {
 }
 else if (percentage >= 40) {
     console.log("Grade E");
+    console.log(obt_marks);
 }
 else if (percentage < 40) {
     console.log("Grade F");
@@ -263,6 +274,50 @@ if (a == 90 && b == 90 && c == 90) {
 }
 else {
     console.log("The Triangle is not valid");
+}
+// 15. Write a ts program to input all sides of a triangle and check whether triangle is valid or not.
+alert("input all sides of a triangle and check whether triangle is valid or not");
+var first_side = prompt("Enter the first side");
+var second_side = prompt("Enter the second side");
+var third_side = prompt("Enter the third side");
+var a = Number(first_side);
+var b = Number(second_side);
+var c = Number(third_side);
+var a = 32;
+var b = 23;
+var c = 32;
+if (a + b > c || a + c > b || b + c > a) {
+    console.log("The Triangle is valid");
+}
+else {
+    console.log("The Triangle is not valid");
+}
+// 20. Write a ts program to input basic salary of an employee and calculate its Gross salary according to following:
+// Basic Salary <= 10000 : HRA = 20%, DA = 80%
+// Basic Salary <= 20000 : HRA = 25%, DA = 90%
+// Basic Salary > 20000 : HRA = 30%, DA = 95%
+alert("input basic salary of an employee and calculate its Gross salary");
+var salary = prompt("input basic salary of an employee and calculate its Gross salary");
+var basic_salary = Number(salary);
+var medical = prompt("input medical allowance of an employee");
+var ma = Number(medical);
+if (basic_salary <= 10000) {
+    var hra = basic_salary * 20 / 100;
+    var da = basic_salary * 80 / 100;
+    var gross_salary = basic_salary + hra + da + ma;
+    console.log("The Gross salary of employee is " + gross_salary);
+}
+else if (basic_salary <= 20000) {
+    var hra = basic_salary * 25 / 100;
+    var da = basic_salary * 90 / 100;
+    var gross_salary = basic_salary + hra + da + ma;
+    console.log("The Gross salary of employee is " + gross_salary);
+}
+else if (basic_salary > 20000) {
+    var hra = basic_salary * 30 / 100;
+    var da = basic_salary * 95 / 100;
+    var gross_salary = basic_salary + hra + da + ma;
+    console.log("The Gross salary of employee is " + gross_salary);
 }
 // Write a ts program to input electricity unit charges and calculate total electricity bill according to the given condition:
 // For first 50 units Rs. 0.50/unit

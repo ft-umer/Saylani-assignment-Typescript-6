@@ -1,9 +1,9 @@
 // Assignment 5
 // 1. Write a ts program to find maximum between two numbers.
 alert("find maximum between two numbers")
-var number1 : string|null = prompt("Enter first number")
+var number1: string | null = prompt("Enter first number")
 var nums1: number = Number(number1)
-var number2 : string|null = prompt("Enter second number")
+var number2: string | null = prompt("Enter second number")
 var nums2: number = Number(number2)
 
 var num1: number = Number(nums1)
@@ -18,11 +18,11 @@ if (num1 > num2) {
 // 2. Write a ts program to find maximum between three numbers.
 alert("find maximum between three numbers")
 
-var number3 : string|null = prompt("Enter first number")
+var number3: string | null = prompt("Enter first number")
 var nums3: number = Number(number3)
-var number4 : string|null = prompt("Enter second number")
+var number4: string | null = prompt("Enter second number")
 var nums4: number = Number(number4)
-var number5 : string|null = prompt("Enter first number")
+var number5: string | null = prompt("Enter first number")
 var nums5: number = Number(number5)
 
 var num1: number = Number(nums3)
@@ -40,7 +40,7 @@ if (num1 > num2) {
 // 3. Write a ts program to check whether a number is negative, positive or zero.
 
 alert("check whether a number is negative, positive or zero")
-var number : string|null = prompt("check whether a number is negative, positive or zero.")
+var number: string | null = prompt("check whether a number is negative, positive or zero.")
 var num: number = Number(number)
 if (num > 0) {
     console.log("The number is positive")
@@ -53,7 +53,7 @@ if (num > 0) {
 // Write a ts program to check whether a number is divisible by 5 and 11 or not.
 
 alert("check whether a number is divisible by 5 and 11 or no")
-var number:string|null = prompt("check whether a number is divisible by 5 and 11 or not")
+var number: string | null = prompt("check whether a number is divisible by 5 and 11 or not")
 var num: number = Number(number)
 if (num % 5 == 0) {
     console.log(num + " is divisible by 5")
@@ -66,7 +66,7 @@ if (num % 5 == 0) {
 // Write a ts program to check whether a number is even or odd.
 
 alert("check whether a number is even or odd")
-var number : string|null = prompt("check whether a number is even or odd")
+var number: string | null = prompt("check whether a number is even or odd")
 var num: number = Number(number)
 if (num % 2 == 0) {
     console.log(num + " is even")
@@ -77,7 +77,7 @@ if (num % 2 == 0) {
 // Write a ts program to check whether a year is leap year or not.
 
 alert("check whether a year is leap year or not")
-var years:string|null = prompt("check whether a year is leap year or not")
+var years: string | null = prompt("check whether a year is leap year or not")
 var year: number = Number(years)
 if (year % 4 == 0) {
     console.log(year + " is a leap year")
@@ -88,13 +88,13 @@ if (year % 4 == 0) {
 // Write a ts program to check whether a character is uppercase or lowercase alphabet.
 
 alert("check whether a character is uppercase or lowercase alphabet")
-var input:string|null = prompt("check whether a character is uppercase or lowercase alphabet")
-var character: string= String(input)
+var input: string | null = prompt("check whether a character is uppercase or lowercase alphabet")
+var character: string = String(input)
 if (character >= 'A' && character <= 'Z') {
     console.log("The Character is Uppercase")
-}else if(character >= 'a' && character <= 'z'){
+} else if (character >= 'a' && character <= 'z') {
     console.log("The Character is Lowercase")
-}else{
+} else {
     console.log("You did not enter any alphabet")
 }
 
@@ -102,45 +102,45 @@ if (character >= 'A' && character <= 'Z') {
 // 12. Write a ts program to input month number and print number of days in that month.
 
 alert("input month number and print number of days in that month")
-var userInput:string|null = prompt("input month number and print number of days in that month.")
-var month : number= Number(userInput)
+var userInput: string | null = prompt("input month number and print number of days in that month.")
+var month: number = Number(userInput)
 
-var day_30 :string = "30 days"
-var day_31:string = "30 days"
-var day_28:string = "28 or 29 days"
+var day_30: string = "30 days"
+var day_31: string = "30 days"
+var day_28: string = "28 or 29 days"
 if (month == 1) {
-    console.log("January has " +day_31)
-}else if (month == 2) {
-    console.log("Fabruary has " +day_28)
-}else if (month == 3) {
-    console.log("March has " +day_31)
+    console.log("January has " + day_31)
+} else if (month == 2) {
+    console.log("Fabruary has " + day_28)
+} else if (month == 3) {
+    console.log("March has " + day_31)
 } if (month == 4) {
-    console.log("April has " +day_30)
-}else if (month == 5) {
-    console.log("May has " +day_31)
-}else if (month == 6) {
-     console.log("June has " +day_30)
-}else if (month == 7) {
-    console.log("july has " +day_31)
-}else if (month == 8) {
-    console.log("August has " +day_31)
-}else if (month == 9) {
-    console.log("September has " +day_30)
-}else if (month == 10) {
-    console.log("Octuber has " +day_31)
-}else if (month == 11) {
-    console.log("November has " +day_30)
-}else if (month == 12) {
-    console.log("December has " +day_31)
-}else{
+    console.log("April has " + day_30)
+} else if (month == 5) {
+    console.log("May has " + day_31)
+} else if (month == 6) {
+    console.log("June has " + day_30)
+} else if (month == 7) {
+    console.log("july has " + day_31)
+} else if (month == 8) {
+    console.log("August has " + day_31)
+} else if (month == 9) {
+    console.log("September has " + day_30)
+} else if (month == 10) {
+    console.log("Octuber has " + day_31)
+} else if (month == 11) {
+    console.log("November has " + day_30)
+} else if (month == 12) {
+    console.log("December has " + day_31)
+} else {
     console.log("Please enter month number between (1-12).")
 }
 
 // 7. Write a ts program to check whether a character is alphabet or not.
 
 alert("check whether a character is alphabet or not")
-var input:string|null = prompt("check whether a character is alphabet or not")
-var character: string= String(input)
+var input: string | null = prompt("check whether a character is alphabet or not")
+var character: string = String(input)
 if ((character >= 'A' && character <= 'Z') || (character >= 'a' && character <= 'z')) {
     console.log("The character is an alphabet")
 } else {
@@ -150,37 +150,37 @@ if ((character >= 'A' && character <= 'Z') || (character >= 'a' && character <= 
 // 11. Write a ts program to input week number and print week day.
 
 alert("input week number and print week day")
-var userInput: string|null = prompt(" input week number and print week day")
-var week : number =  Number(userInput)
+var userInput: string | null = prompt(" input week number and print week day")
+var week: number = Number(userInput)
 if (week == 1) {
     console.log("Its Monday")
-}else if (week == 2) {
+} else if (week == 2) {
     console.log("Its Tuesday")
-}else if (week == 3) {
+} else if (week == 3) {
     console.log("Its wednesday")
-}else if (week == 4) {
+} else if (week == 4) {
     console.log("Its Thursday")
-}else if (week == 5) {
+} else if (week == 5) {
     console.log("Its Friday")
-}else if (week == 6) {
+} else if (week == 6) {
     console.log("Its Saturday")
-}else if (week == 7) {
+} else if (week == 7) {
     console.log("Its Sunday")
-}else{
+} else {
     console.log("Invalid week day")
 }
 
 // 9. Write a ts program to input any character and check whether it is alphabet, digit or special character.
 
 alert("input any character and check whether it is alphabet, digit or special character")
-var input:string|null = prompt("input any character and check whether it is alphabet, digit or special character")
-var characters: any= input
+var input: string | null = prompt("input any character and check whether it is alphabet, digit or special character")
+var characters: any = input
 
 if ((characters >= 'A' && characters <= 'Z') || (characters >= 'a' && characters <= 'z')) {
     console.log("The character is an alphabet")
-} else if(characters >= -Infinity && characters <= +Infinity) {
+} else if (characters >= -Infinity && characters <= +Infinity) {
     console.log("The character is a digit")
-}else {
+} else {
     console.log("It is a special character")
 }
 
@@ -198,7 +198,7 @@ if (letter == "A" || letter == "E" || letter == "I" || letter == "O" || letter =
     console.log("The alphabet is consnant")
 }
 
-// 10. Write a ts program to input any alphabet and check whether it is vowel or consonant.
+
 // Write a ts program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
 // Percentage >= 90% : Grade A
 // Percentage >= 80% : Grade B
@@ -207,11 +207,28 @@ if (letter == "A" || letter == "E" || letter == "I" || letter == "O" || letter =
 // Percentage >= 40% : Grade E
 // Percentage < 40% : Grade F
 
-alert("Calculate percentage and grade")
-var total_num: string | null = prompt("Enter Total Marks")
-var obt_num: string | null = prompt("Enter Obtained Marks")
-var total_marks :number = Number(total_num)
-var obt_marks:number = Number(obt_num)
+var total : string | null = prompt("Enter total marks")
+
+alert("Enter subjects marks to calculate percentage")
+
+var phy: string | null = prompt("Enter Physics Marks")
+var chem: string | null = prompt("Enter Chemistry Marks")
+var eng: string | null = prompt("Enter English Marks")
+var math: string | null = prompt("Enter Mathematics Marks")
+var urdu: string | null = prompt("Enter Urdu Marks")
+var is: string | null = prompt("Enter Islamiyat Marks")
+
+var total_marks : number = Number(total)
+
+var Physics: number = Number(phy)
+var Chemistry: number = Number(chem)
+var English: number = Number(eng)
+var Mathematics: number = Number(math)
+var Urdu: number = Number(urdu)
+var Islamiyat : number = Number(is)
+
+
+var obt_marks = Physics + Chemistry + English + Mathematics + Urdu + Islamiyat
 var percentage: number = obt_marks / total_marks * 100
 
 console.log("The percentage is " + percentage + " %")
@@ -226,10 +243,10 @@ if (percentage >= 90) {
     console.log("Grade D")
 } else if (percentage >= 40) {
     console.log("Grade E")
+    console.log(obt_marks)
 } else if (percentage < 40) {
     console.log("Grade F")
 }
-
 
 // Write a ts program to calculate profit or loss.
 
@@ -251,9 +268,9 @@ if (selling_price > cost_price) {
 
 // Write a ts program to input angles of a triangle and check whether triangle is valid or not.
 alert("input angles of a triangle and check whether triangle is valid or not")
-var first_angle:string | null = prompt("Enter the first angle")
-var second_angle:string | null = prompt("Enter the second angle")
-var third_angle:string | null = prompt("Enter the third angle")
+var first_angle: string | null = prompt("Enter the first angle")
+var second_angle: string | null = prompt("Enter the second angle")
+var third_angle: string | null = prompt("Enter the third angle")
 
 var a: number = Number(first_angle)
 var b: number = Number(second_angle)
@@ -263,6 +280,56 @@ if (a == 90 && b == 90 && c == 90) {
     console.log("The Triangle is valid")
 } else {
     console.log("The Triangle is not valid")
+}
+
+// 15. Write a ts program to input all sides of a triangle and check whether triangle is valid or not.
+
+alert("input all sides of a triangle and check whether triangle is valid or not")
+var first_side: string | null = prompt("Enter the first side")
+var second_side: string | null = prompt("Enter the second side")
+var third_side: string | null = prompt("Enter the third side")
+
+var a: number = Number(first_side)
+var b: number = Number(second_side)
+var c: number = Number(third_side)
+
+var a: number = 32
+var b: number = 23
+var c: number = 32
+
+
+if (a + b > c || a + c > b || b + c > a) {
+    console.log("The Triangle is valid")
+} else {
+    console.log("The Triangle is not valid")
+}
+
+// 20. Write a ts program to input basic salary of an employee and calculate its Gross salary according to following:
+// Basic Salary <= 10000 : HRA = 20%, DA = 80%
+// Basic Salary <= 20000 : HRA = 25%, DA = 90%
+// Basic Salary > 20000 : HRA = 30%, DA = 95%
+
+alert("input basic salary of an employee and calculate its Gross salary")
+var salary :string|null = prompt("input basic salary of an employee and calculate its Gross salary")
+var basic_salary: number =Number(salary)
+var medical: string| null = prompt("input medical allowance of an employee")
+var ma : number = Number(medical)
+
+if (basic_salary <= 10000) {
+    var hra = basic_salary * 20 / 100
+    var da = basic_salary * 80 / 100
+    var gross_salary = basic_salary + hra + da + ma
+    console.log("The Gross salary of employee is "+gross_salary)
+} else if (basic_salary <= 20000) {
+    var hra = basic_salary * 25 / 100
+    var da = basic_salary * 90 / 100
+    var gross_salary = basic_salary + hra + da + ma
+    console.log("The Gross salary of employee is "+gross_salary)
+} else if (basic_salary > 20000) {
+    var hra = basic_salary * 30 / 100
+    var da = basic_salary * 95 / 100
+    var gross_salary = basic_salary + hra + da + ma
+    console.log("The Gross salary of employee is "+gross_salary)
 }
 
 // Write a ts program to input electricity unit charges and calculate total electricity bill according to the given condition:
@@ -282,7 +349,7 @@ if (units <= 50) {
     console.log("For first 50 units the bill is " + bill + "Rs")
 }
 else if (units <= 150) {
-    bill =(((50 * 0.50 + (units - 50) * 0.75) / 100) * 20) + 50 * 0.50 + (units - 50) * 0.75
+    bill = (((50 * 0.50 + (units - 50) * 0.75) / 100) * 20) + 50 * 0.50 + (units - 50) * 0.75
     console.log("For next 100 units the bill is " + bill + "Rs")
 }
 else if (units <= 250) {
