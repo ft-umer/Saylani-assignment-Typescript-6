@@ -1,9 +1,9 @@
 // // Assignment 5
 // // 1. Write a ts program to find maximum between two numbers.
 // alert("find maximum between two numbers")
-// var number1: string | null = prompt("Enter first number")
+// var number1: string | null = prompt("Enter First number")
 // var nums1: number = Number(number1)
-// var number2: string | null = prompt("Enter second number")
+// var number2: string | null = prompt("Enter Second number")
 // var nums2: number = Number(number2)
 // var num1: number = Number(nums1)
 // var num2: number = Number(nums2)
