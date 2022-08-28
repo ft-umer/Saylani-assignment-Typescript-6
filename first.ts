@@ -16,7 +16,8 @@
 // }
 
 // // 2. Write a ts program to find maximum between three numbers.
-// alert("find maximum between three numbers")
+
+// alert("find maximum between three numbers"
 
 // var number3: string | null = prompt("Enter first number")
 // var nums3: number = Number(number3)
