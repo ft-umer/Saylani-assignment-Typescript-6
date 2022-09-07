@@ -17,7 +17,7 @@
 
 // // 2. Write a ts program to find maximum between three numbers.
 
-// alert("find maximum between three numbers"
+// alert("find maximum between three numbers")
 
 // var number3: string | null = prompt("Enter first number")
 // var nums3: number = Number(number3)
@@ -116,11 +116,11 @@
 
 // alert("input any character and check whether it is alphabet, digit or special character")
 // var input: string | null = prompt("input any character and check whether it is alphabet, digit or special character")
-// var Character1 : any = input
+// var Characters1 : any = input
 
-// if ((Character1 >= 'A' && Character1 <= 'Z') || (Character1 >= 'a' && Character1 <= 'z')) {
+// if ((Characters1 >= 'A' && Characters1 <= 'Z') || (Characters1 >= 'a' && Characters1 <= 'z')) {
 //     console.log("The character is an alphabet")
-// } else if (Character1 >= -Infinity && Character1 <= +Infinity) {
+// } else if (Characters1 >= -Infinity && Characters1 <= +Infinity) {
 //     console.log("The character is a digit")
 // } else {
 //     console.log("It is a special character")
@@ -167,7 +167,7 @@
 
 // alert("input month number and print number of days in that month")
 // var userInput: string | null = prompt("input month number and print number of days in that month.")
-// var month: number = Number(userInput)
+// var month: number = 10
 
 // var day_30: string = "30 days"
 // var day_31: string = "30 days"
@@ -243,7 +243,7 @@
 // }
 
 
-// 16. Write a ts program to check whether the triangle is equilateral, isosceles or scalene triangle.
+// // // 16. Write a ts program to check whether the triangle is equilateral, isosceles or scalene triangle.
 
 // alert("input angles of a triangle and check whether triangle is valid or not")
 // var first_side: string | null = prompt("Enter the first side")
