@@ -31,9 +31,8 @@
 // }
 
 // 4. Write a ts program to print all even numbers between 1 to 100. - using while loop
-var num:number=1
-while (num <= 100) {
-    console.log(num)
-    num++
-}
-
+// var num:number=1
+// while (num <= 100) {
+//     console.log(num)
+//     num++
+// }
