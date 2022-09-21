@@ -1,10 +1,11 @@
-var a: number = 5
-var b: number = 1
-while (a >= 1) {
-    var b = b * a
-    a--
+var a: number = 1
+var c:number= 0
+var b: number = 10
+while (a <= b) {
+    var c = c + a
+    a++
 }
-console.log(b)
+console.log(c)
 
 // var mat: number = 810
 // var fsc: number = 272
