@@ -1,19 +1,19 @@
 // // 1. Write a ts program to print all natural numbers from 1 to n. - using while loop
 // // alert("program to print all natural numbers from 1 to n.")
-var num = 0;
+// var num:number = 1
 // var numbers:string|null=prompt("Enter Number")
 // var number:number= Number(numbers)
-var number = 10;
+// var number:number= 10
 // while (num < number) {
 //     num++
 //     console.log(num)
 // }
-console.log(--number);
 // // 2. Write a ts program to print all natural numbers in reverse (from n to 1). - using while loop
+// how to get product of number
 // // alert("program to print all natural numbers in reverse (from n to 1).")
 // var numbers:string|null=prompt("Enter Number")
 // var number:number= Number(numbers)
-// // var number:number= 10
+// var number:number= 10
 // while (number >= 1) {
 //     console.log(number)
 //     number--
@@ -131,16 +131,40 @@ console.log(--number);
 // for (let index = 0; index < final.length; index++) {
 //     product = multi.charAt(index)
 //     constant = constant * product
+// console.log(product) 
+// }   
+// // 16. Write a ts program to enter a number and print its reverse.
+var number = 15554;
+var numToString = number.toString();
+var charArr = numToString.split('');
+// console.log(charArr)
+var reverse = charArr.reverse();
+// console.log(reverse)
+var reversedArr = reverse.join("");
+// var exactNumber = parseFloat(reversedArr)
+console.log("The number \"".concat(number, "\" is reversed  as \"").concat(reversedArr, "\""));
+// var nums:number = 12121515
+// var numsToStrimg = nums.toString().split('')
+// var reverse:number = 1
+// var remainder
+// while (nums!=0) {
+//     remainder = nums % 10
+//     reverse = reverse * 10 + remainder
+//     nums /= 10
 // }
-// console.log(constant)    
-// var number: number = 1555
-// var multi = number.toString()
-// // var constant: number = 1
-// // var num: number = 0
-// var final = multi.split("")
-// var product
-// for (let index = 0; index < final.length; index++) {
-//     // product = multi.charAt(index)
-//     product = multi.charAt(index)
-//     console.log(product)
-// }    
+// console.log(reverse)
+// var getIndex
+// for (let index = charArr.length; index > 1 ; index--) {
+//         getIndex = numToString.charAt(index)
+//         console.log(getIndex)
+// }
+// console.log(`The reverse of the given number "${numToString}" is ${reversedArr}`)
+// var number:number = 10
+// var padstrat = number.toString()
+// var pod = padstrat.split("")
+// while (number >= 1) {
+//     console.log(number)
+//     number--
+// }
+// // 18. Write a ts program to find frequency of each digit in a given integer.
+var number = 1234556553225;
