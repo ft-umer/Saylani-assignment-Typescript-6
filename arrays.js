@@ -131,13 +131,14 @@
 // }
 // console.log(`There are "${evenCount}" even numbers`)
 // // 11. Write a ts program to count frequency of each element in an array.
-// var arra7 = [1,2,4,4,4,4,4,5,6,5,5,5,2,2,2,1,1]
-//     var counts = {}
-//     for (var num of arra7) {
-//         counts[num] = counts[num] ? counts[num] + 1 : 1
-//         // console.log(counts[num])
-//     }
-// console.log(counts[2])
+var arra7 = [1, 2, 4, 4, 4, 4, 4, 5, 6, 5, 5, 5, 2, 2, 2, 1, 1];
+var counts = {};
+for (var _i = 0, arra7_1 = arra7; _i < arra7_1.length; _i++) {
+    var num = arra7_1[_i];
+    counts[num] = counts[num] ? counts[num] + 1 : 1;
+    // console.log(counts[num])
+}
+console.log(counts[1]);
 // // 19. Write a ts program to sort array elements in ascending or descending order.
 // var array8 = [12,1,2,5,4,8,9,7,3,6,10,11]
 // array8.sort((a,b) => a-b)

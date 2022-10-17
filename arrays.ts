@@ -164,14 +164,14 @@
 
 // // 11. Write a ts program to count frequency of each element in an array.
 
-// var arra7 = [1,2,4,4,4,4,4,5,6,5,5,5,2,2,2,1,1]
+var arra7 = [1,2,4,4,4,4,4,5,6,5,5,5,2,2,2,1,1]
 
-//     var counts = {}
-//     for (var num of arra7) {
-//         counts[num] = counts[num] ? counts[num] + 1 : 1
-//         // console.log(counts[num])
-//     }
-// console.log(counts[2])
+    var counts = {}
+    for (var num of arra7) {
+        counts[num] = counts[num] ? counts[num] + 1 : 1
+        // console.log(counts[num])
+    }
+console.log(counts[1])
 
 
 // // 19. Write a ts program to sort array elements in ascending or descending order.
@@ -221,5 +221,3 @@
 //     }
 // }
 // gratitude(studentName)
-
-
